@@ -1,5 +1,7 @@
 body {
   background-color: pink;
-  color:#ffffff;
-  
+  color:#ffffff; 
+}
+MyButton{
+  color:#000;
 }
