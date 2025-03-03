@@ -1,7 +1,9 @@
-body {
+body{
   background-color: pink;
-  color:#ffffff; 
+  color: pastelred; 
 }
-MyButton{
-  color:#000;
+#MyButton{
+  color: #000;
+  min-height:100px;
+  min-width:300px;
 }
