@@ -1,7 +1,9 @@
 body{
   background-color: pink;
-  color:Red; 
 }
+  h1{color:Red;
+    }
+
 #MyButton{
   color: #000;
   min-height:120px;
