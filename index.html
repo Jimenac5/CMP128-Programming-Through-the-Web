@@ -19,7 +19,27 @@
     </nav>
     <section>
         <p>This website is designed to help you learn and practice web development.</p>
-      <form>
+      <form action="/services/handle-form" method="POST">
+          <fieldset>
+                <legend>Personal Info</legend>
+                  <label>
+                    First Name:
+                    <input type="text" name="firstname" size="20" maxlength ="50"/>
+                  </label>
+              <br>
+                  <label>
+                      <input type="text" name="last name" size="30" maxlength ="70"/>
+                  </label>
+               <label>
+                      <input type="email" name="email" size="30" maxlength ="70"/>
+                  </label>
+              <br>
+              <label>
+                      <input type="phonenumber" name="phone number" size="20" maxlength ="50"/>
+                  </label>
+              
+          </fieldset>
+          <input type="submit" value="Submit Form" />
           
       </form>
         <button onclick="displayQuote()" value="">Display Random Quote </button>
