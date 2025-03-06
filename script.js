@@ -1,7 +1,7 @@
-let quote = ["Happy","Keep","Never","kindness"];
-function displayquote(){
-  let randomquoteIndex = Math.floor(Math.random()*quote.length);
-  let myQuote=quote[randomquoteIndex];
-  letquoteDivElement= document.getElementById("myQuote");
-  quoteDivElement.innerHTML=myQuote;
+let mood = ["Happy","Nuetral","Sad"];
+function displayMood(){
+  let randomMoodIndex = Math.floor(Math.random()*mood.length);
+  let myMood=mood[randomMoodIndex];
+  let moodDivElement= document.getElementById("myQuote");
+  moodDivElement.innerHTML=myMood;
 }
